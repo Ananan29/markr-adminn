@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .home1 {
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    color: white; /* Text color */
+    background-image: url("https://media.istockphoto.com/id/1349104991/photo/e-learning-online-education-concept.jpg?s=612x612&w=0&k=20&c=dta2tnpaC95FdcqSy4bpp2tLzBQDTCNajXeLxNsKXoo="); /* Add background image here */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background repetition */
+    padding: 20px; /* Add padding */
+  }
+  
+  h1 {
+    font-size: 2.5rem; /* Default font size for h1 */
+    margin-bottom: 1rem; /* Spacing below the h1 */
+    text-shadow:  2px 2px 4px  black;
+  }
+  
+  h3 {
+    font-size: 1.5rem; /* Default font size for h3 */
+    text-shadow:  2px 2px 4px  black;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; /* Smaller font size for h1 on mobile */
+    }
+  
+    h3 {
+      font-size: 1.2rem; /* Smaller font size for h3 on mobile */
+      margin-bottom: 1rem; /* Spacing below the h3 */
+    }
+  
+    .home1 {
+      padding: 10px; /* Reduced padding on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem; /* Further reduced font size for smaller devices */
+    }
+  
+    h3 {
+      font-size: 1rem; /* Further reduced font size for smaller devices */
+    }
+  }
+  

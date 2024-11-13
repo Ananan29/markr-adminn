@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* body { 
+  font-family: 'Space Mono', monospace; 
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  padding: 32px;
+  margin: 60px auto;
+  border: 1px solid #eee;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.06);
+} */
+
+/* * { 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  letter-spacing: -0.25px;
+} */
+
+.ol { padding-left: 50px; 
+}
+.li { 
+  color: #4F4F4F; 
+  padding-left: 16px;
+  margin-top: 24px;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 25px;
+  /* background-color: antiquewhite; */
+  width: 100%;
+  
+  &:before {
+    content: '';
+    display: block;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    position: absolute; 
+    top: -12px;
+    left: -46px;
+
+    position: absolute;
+    /* top: 9px; Center the text vertically */
+    left: -35px; /* Center the text horizontally */
+    font-size: 18px; /* Adjust font size as needed */
+    /* color: #333; */
+
+    /* top: 6px;
+    left: -46px;
+
+    position: absolute; */
+    /* top: 9px; Center the text vertically */
+    /* left: -50px; 
+    font-size: 18px;  */
+    /* color: #333; */
+    /* margin-top:15px; */
+    /* margin-right:10px; */
+  }
+}
+
+strong { color: #292929; font-size:larger;margin-bottom: 10px;}
+
+.ol.alternating-colors { 
+  li:nth-child(odd):before { border-color: #0BAD02; }
+  li:nth-child(even):before { border-color: #2378D5; }
+}
+
+.mailid{
+  display:flex;
+  justify-content:space-between;
+}
+.thisdiv{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+    
+    /* text-align: center; Center text inside */
+  /* } */
+}
+
+.ps{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.notmailid{
+    /* background-color: #2378D5; */
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    justify-content: center;
+    font-size: x-large;
+}
