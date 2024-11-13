@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 // import logo from "/Users/anniemannie/Desktop/coding/mern/minorproject/Adminn/src/assets/logo.svg"; 
 import logo from "./../../assets/logo-1.png"
 import {useEffect} from "react"
-import Authorisation from "./../Adminauth/Authorisation"
+import Authorisation from "./../adminauth/Authorisation"
 
 const Navbar = ({isadminauthenticated,setisadminauthenticated}) => {
   const [isOpen, setIsOpen] = useState(false);
