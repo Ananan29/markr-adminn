@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 // import logo from "/Users/anniemannie/Desktop/coding/mern/minorproject/Adminn/src/assets/logo.svg"; 
-import logo from "/Users/anniemannie/Desktop/coding/mern/minorproject/Adminn/src/assets/logo-1.png"
+import logo from "./../../assets/logo-1.png"
 import {useEffect} from "react"
 import Authorisation from "./../Adminauth/Authorisation"
 
