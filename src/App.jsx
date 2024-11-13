@@ -4,7 +4,7 @@ import AdminAboutPage from './components/AdminAboutPage/AdminAboutPage';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-
+import reportwebvitals from "./reportwebVitals";
 function App() {
   const [isadminauthenticated, setisadminauthenticated] = useState(false)
   return (

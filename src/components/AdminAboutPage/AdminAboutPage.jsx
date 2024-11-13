@@ -9,7 +9,7 @@ const AdminAboutPage = () => {
   useEffect(() => {
     const fetchContent = async () => {
       try {
-        const response = await axios.get(backendapi"/api/about");
+        const response = await axios.get(backendapi+"/api/about");
         setContent(response.data.content);
       } catch (error) {
         console.error("Error fetching about content:", error);
